@@ -33,14 +33,14 @@ public class Task1_4 {
         // nameとpassはログイン画面からの入力値だと想定してみましょう。
 
 
-         String name = "alice";
-         String pass = "pass";
+         String name = "babayudai";
+         String pass = "babadesu";
 
 
         // ② 「name」の値が「USER_RNAME」と等しく、「 pass 」の値が「USER_PASSWORD」と等しい場合。
         //      定数を使用して「 ログイン成功です 」と出力してください。
         if(name == USER_RNAME && pass == USER_PASSWORD){
-            System.out.println("ログイン成功です");
+            System.out.println("ログイン成功です.");
         
 
         // ③ 「USER_RNAME」の値のみ等しい場合。
