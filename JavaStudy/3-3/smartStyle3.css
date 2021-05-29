@@ -1,0 +1,83 @@
+@media screen and (max-width: 479px){
+    .header{
+        width: 200px;
+        height: 180px;
+    }
+    .header-item{
+        margin: 0px 70px;
+        float: left;
+        width: 50px;
+        height: 140px;
+    }
+    .header-item1{
+        margin-bottom: 10px;
+        float: none;
+    }
+    .header-item2{
+        margin-bottom: 10px;
+        margin-left: 0px;
+        float: none;
+    }
+    .header-item3{
+        float: none;
+        margin-left: 0px;
+    }
+    .main{
+        width: 200px;
+        height: 470px;
+    }
+    .left{
+        float: none;
+        width: 200px;
+    }
+    .right{
+        width: 170px;
+        height: 200px;
+        padding: 20px 0 0 30px;
+    }
+    .right-top{
+        width: 130px;
+        height: 40px;
+        background-color: white;
+        padding: 5px 5px 5px 5px;
+        
+    }
+    .right-top1{
+        float: left;
+        width: 130px;
+        height: 40px;
+        background-color: #ff863f;
+    }
+    .right-center{
+        width: 130px;
+        height: 40px;
+        background-color: white;
+        padding: 5px 5px 5px 5px;
+        
+    }
+    .right-center1{
+        float: left;
+        width: 130px;
+        height: 40px;
+        background-color: #ff863f;
+    }
+    .right-bottom{
+        width: 130px;
+        height: 40px;
+        background-color: white;
+        padding: 5px 5px 5px 5px;
+        
+    }
+    .right-bottom1{
+        float: left;
+        width: 130px;
+        height: 40px;
+        background-color: #ff863f;
+    }
+    .footer{
+        width: 200px;
+    }
+    *{
+        margin: 0;
+    }
+}
