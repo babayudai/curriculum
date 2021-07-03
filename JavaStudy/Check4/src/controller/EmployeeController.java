@@ -37,7 +37,6 @@ public class EmployeeController extends HttpServlet {
   
   // 問④ nullの部分に適切な引数をセットする。
  request.setAttribute("EmployeeBean", eb);
- System.out.print("aaa");
  
  } catch (Exception e) {
  e.printStackTrace();
