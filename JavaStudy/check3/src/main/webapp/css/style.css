@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.name{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.wrapper{
+	background-color: gray;
+}
+.log{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+
+}
+.cal{
+	display: inline-block;
+	padding: 10px;
+	font-size: 10px;
+}
+.footer{
+	background-color: gray;
+}
+.footer-main{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
