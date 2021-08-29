@@ -16,10 +16,21 @@
     <button class="click">クリック</button>
     <script>
     //  ここにjQueryを記入
+    var clicks = 0
+
     $(".click").on("click",function(){
-        $(".left").animate({"width":"0%"});
-        $(".right").animate({"width":"0%"});
-    });
+      //偶数回は開く
+        if(clicks % 2 == 0){
+          $(".left").animate({"width":"0%"});
+          $(".right").animate({"width":"0%"});
+          clicks++;
+          //奇数回は閉じる
+    }else if(clicks % 2 != 0){
+          $(".left").animate({"width":"50%"});
+          $(".right").animate({"width":"50%"});
+          clicks++;
+    };
+  });
     </script>
   </body>
 </html>
